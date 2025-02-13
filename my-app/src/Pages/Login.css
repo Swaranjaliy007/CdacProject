@@ -1,0 +1,59 @@
+.login-container {
+    display: flex;
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .login-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .login-box {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-icon {
+    font-size: 30px;
+    color: #17a2b8;
+  }
+  
+  .form-control-lg {
+    font-size: 16px;
+  }
+  
+  .btn-lg {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+      width: 90%;
+    }
+    
+    .image-section {
+      display: none; /* Hide image on small screens */
+    }
+  
+    
+}

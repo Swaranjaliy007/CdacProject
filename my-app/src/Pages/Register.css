@@ -1,0 +1,48 @@
+/* src/components/Register.css */
+
+.register-container {
+   
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    border: 3px solid #090707; /* Add a border */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+    margin-top: 100px; /* Space above the button */
+}
+
+.register-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.register-container input {
+    width: 100%; /* Full width for inputs */
+    padding: 14px; /* Padding inside inputs */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #050505; /* Border for inputs */
+    border-radius: 8px; /* Round the corners of inputs */
+    font-size: 16px; /* Font size for inputs */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.register-container button {
+    width: 100%; /* Full width for button */
+    padding: 14px; /* Padding inside button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Round the corners of button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above the button */
+}
+
+.register-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.register-container p {
+    margin: 10px 0; /* Space above and below messages */
+    font-size: 14px; /* Font size for messages */
+}

@@ -1,0 +1,10 @@
+h1{
+    background-color: blue;
+    color:white;
+}
+
+.myfooter{
+    position:fixed;
+    bottom: 0;
+    left:200px
+}
