@@ -96,60 +96,7 @@ public class UserController {
     }
 
     
-     /*
-    @PostMapping("/create")
-    public ResponseEntity<?> createUser(@RequestBody RegisterRequest request) {
-        try {
-            UserRole role = UserRole.valueOf(request.getRoles()); // Convert String to enum
-            User registeredUser = userService.RegisterUser(
-                request.getName(),
-                request.getEmail(),
-                request.getPassword(),
-                Set.of(role) // Pass the role as a Set<UserRole>
-            );
-
-            // Construct the success response
-            Map<String, String> response = new HashMap<>();
-            response.put("message", "Registration successful!");
-            response.put("email", registeredUser.getEmail()); // Or any other data you want to send back
-
-            return ResponseEntity.ok(response); // Return 200 OK with the response map
-
-        } catch (IllegalArgumentException e) { // Handle invalid role strings
-            return ResponseEntity.badRequest().body(Map.of("error", "Invalid role: " + request.getRoles())); // Return 400 Bad Request
-        } catch (Exception e) {  // Catch any other exception during registration
-            // Important: Log the exception for debugging!
-            e.printStackTrace(); // Or use a proper logger like SLF4j
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR) // Return 500 Internal Server Error
-                    .body(Map.of("error", "User registration failed: " + e.getMessage())); // More informative error message
-        }
-    }
     
-    
-    */
-    
-    
-//    @PostMapping("/create")
-//    public ResponseEntity<?> createUser(@RequestBody RegisterRequest request) {
-//        try {
-//            User registeredUser = userService.RegisterUser(
-//                request.getName(),
-//                request.getEmail(),
-//                request.getPassword(),
-//                request.getRoles()
-//            );
-//
-//            Map<String, String> response = new HashMap<>();
-//            response.put("message", "Registration successful!");
-//            response.put("email", registeredUser.getEmail());
-//
-//            return ResponseEntity.ok(response);
-//        } catch (Exception e) {
-//            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-//                    .body(Map.of("error", "User registration failed: " + e.getMessage()));
-//        }
-//    }
-
     
     
 
