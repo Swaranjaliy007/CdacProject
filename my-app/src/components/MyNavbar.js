@@ -14,7 +14,7 @@ const MyNavbar = () => {
                 <li><Link to="/contact" style={{ color: "white" }}>Contact</Link></li>
                 <li><Link to="/drawings" style={{color: "white"}}>Drawings</Link></li>
                 <li><Link to="/login" style={{ color: "white" }}>Login</Link></li>               
-                <li><Link to="/dashboard" style={{ color: "white" }}>Dashboard</Link></li>                       
+                                    
             </ul>
         </nav>
     );
