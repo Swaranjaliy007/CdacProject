@@ -33,11 +33,11 @@ public class ForgotController {
 
 
 
-    private String accountSid = "ACa3d95cf3be73f529ec12f5ebc90b3a71";
+    private String accountSid = "ACa3d95cf3be73f...";
 
 
 
-    private String authToken = "32ff70ae22f64c1fd56c9ee668eefa37";
+    private String authToken = "32ff70ae22f64c1f...";
     
 
     @Autowired
@@ -80,7 +80,7 @@ public class ForgotController {
 
         	Verification verification = Verification.creator(
 
-                    "VA7a6aed7dd6405de7bdfde25e8cdf7702",
+                    "VA7a6aed7dd6405de7...",
 
                     "+91"+phoneNumber,
 
@@ -124,7 +124,7 @@ public class ForgotController {
 
         	VerificationCheck verificationCheck = VerificationCheck.creator(
 
-                    "VA7a6aed7dd6405de7bdfde25e8cdf7702")
+                    "VA7a6aed7dd6405de7...")
 
                     .setTo("+91"+phoneNumber)
 
